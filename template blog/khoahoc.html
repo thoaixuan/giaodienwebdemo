@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JTC  &raquo; Blogs Listing</title>
+    <meta charset="UTF-8">
+    <link href="wp-content/themes/Training/asset/img/favicon.ico" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="đào tạo lập trình viên, dạy lập trình viên, lập trình viên, trung tâm, trung tâm đào tạo, c++, angularjs, nodejs, php, phalcon, mean, mean stack, expressjs, expressjs, front-end, frontend, backend, back-end, server side, client side, dev ops, full stack , developer, software" />
+    <link rel="stylesheet" href="wp-content/themes/Training/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="wp-content/themes/Training/bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="wp-content/themes/Training/lib/animate.min.css">
+    <link rel="stylesheet" href="wp-content/themes/Training/lib/bxslider/dist/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="wp-content/themes/Training/lib/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="wp-content/themes/Training/lib/jtc.css?v=1.1.0">
+    <link rel="stylesheet" href="wp-content/themes/Training/style.css?v=1.1.0">
+    <script type="text/javascript" src="wp-content/themes/Training/bower_components/jquery/dist/jquery.js.js.php"></script>
+    <script type="text/javascript" src="wp-content/themes/Training/bower_components/bootstrap/dist/js/bootstrap.js.js.php"></script>
+    <script type="text/javascript" src="wp-content/themes/Training/bower_components/mailcheck/src/mailcheck.js.js.php"></script>
+    <script type="text/javascript" src="wp-content/themes/Training/lib/bxslider/dist/jquery.bxslider.js.js.php"></script>
+    <script type="text/javascript" src="wp-content/themes/Training/lib/magnific-popup/jquery.magnific-popup.js.js.php"></script>
+    <script type="text/javascript" src="wp-content/themes/Training/lib/modernizr-custom-jtc.js.js.php"></script>
+    <script type="text/javascript" src="wp-content/themes/Training/lib/util.js.js.php?v=1.1.0"></script>
+    <script type="text/javascript" src="wp-content/themes/Training/lib/jtc.js.js.php?v=1.1.0"></script>
+    <script type="text/javascript">
+        var ajax_url = "wp-admin/admin-ajax.php";
+        var homeUrl = "";
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-43070671-7', 'auto');
+    </script>
+    <script>
+    var translatedText = {
+        checkInform: "Vui lòng kiểm tra lại thông tin",
+        fullName: "Họ và tên",
+        classCode: "Mã lớp",
+        studyTime: "Giờ học",
+        phoneNumber: "Số điện thoại",
+        infoFrom: "Lấy thông tin từ",
+        work: "Công việc",
+        school: "Trường",
+        note: "Ghi chú",
+        payment: "Hình thức thanh toán",
+        direct: "Trực tiếp",
+        byBank: "Chuyển khoản",
+        confirm: "Xác nhận",
+        successMessage: "Đăng ký thành công !",
+        successRegister: "Cám ơn bạn đã đăng ký",
+        failRegister: "Đăng ký thất bại vui lòng thử lại sau",
+        emailRequired: "Vui lòng nhập email hoặc số điện thoại của bạn",
+        send: "GỬI"
+    }
+</script><title>Blogs Listing &#8211; TRUNG TÂM ĐÀO TẠO LẬP TRÌNH VIÊN JANETO</title>
+<link rel='dns-prefetch' href='//ws.sharethis.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<meta property="og:image" content="wp-content/themes/Training/asset/img/logoline.png"><meta property="og:image:width" content="400" /><meta property="og:image:height" content="400" /><meta property="og:description" content="" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/laptrinhvien.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min.css?ver=_2.7.2_beta' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css?ver=6.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='wp-includes/css/dashicons.min.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='post-views-counter-frontend-css'  href='wp-content/plugins/post-views-counter/css/frontend.css?ver=1.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ssbaFont-css'  href='//fonts.googleapis.com/css?family=Indie+Flower&#038;ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='register_ultimate_fb_chat_styles-css'  href='wp-content/plugins/ultimate-facebook-live-chat/assets/style.css?ver=4.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='wp-content/plugins/wp-magnific-popup/mpopup/magnific-popup.css?ver=4.7.5' type='text/css' media='all' />
+<style id='magnific-popup-inline-css' type='text/css'>
+.mfp-iframe-holder .mfp-content { max-width: 900px; }
+</style>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js.js.php?ver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js.js.php?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"https:\/\/laptrinhvien.io\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min.js.js.php?ver=_2.7.2_beta'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.3.0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js.js.php?ver=1.19.0'></script>
+<script type='text/javascript' src='wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js.js.php?ver=6.3.0'></script>
+<script type='text/javascript' src='wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js.js.php?ver=6.3.0'></script>
+<script id='st_insights_js' type='text/javascript' src='button/st_insights.js.js.php?publisher=4d48b7c5-0ae3-43d4-bfbe-3ff8c17a8ae6&#038;product=simpleshare'></script>
+<script type='text/javascript' src='wp-content/plugins/wp-magnific-popup/mpopup/jquery.magnific-popup.min.js.js.php?ver=4.7.5'></script>
+<script type='text/javascript' src='wp-content/plugins/wp-magnific-popup/js/wpmp.js.js.php?ver=4.7.5'></script>
+<meta name="generator" content="Powered by LayerSlider 6.3.0 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+<link rel='https://api.w.org/' href='wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.5" />
+<link rel="canonical" href="blogs/" />
+<link rel='shortlink' href='?p=52' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=https%3A%2F%2Flaptrinhvien.io%2Fblogs%2F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed?url=https%3A%2F%2Flaptrinhvien.io%2Fblogs%2F&#038;format=xml" />
+<meta property="fb:app_id" content="728058174047860"><script>(function(d, s, id){
+                 var js, fjs = d.getElementsByTagName(s)[0];
+                 if (d.getElementById(id)) {return;}
+                 js = d.createElement(s); js.id = id;
+                 js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.6";
+                 fjs.parentNode.insertBefore(js, fjs);
+               }(document, 'script', 'facebook-jssdk'));</script><style type="text/css">	.ssba {
+									
+									
+									
+									
+								}
+								.ssba img
+								{
+									width: 36px !important;
+									padding: 5px;
+									border:  0;
+									box-shadow: none !important;
+									display: inline !important;
+									vertical-align: middle;
+								}
+								.ssba, .ssba a
+								{
+									text-decoration:none;
+									border:0;
+									background: none;
+									font-family: Indie Flower;
+									font-size: 	20px;
+									
+									font-weight: bold;
+								}
+								</style><meta property="og:locale" content="vi_VN" />
+<meta property="og:locale:alternate" content="vi_VN" />
+<meta property="fb:app_id" content="728058174047860" />
+<meta property="og:site_name" content="TRUNG TÂM ĐÀO TẠO LẬP TRÌNH VIÊN JANETO" />
+<meta property="og:title" content="Blogs Listing" />
+<meta property="og:url" content="blogs/" />
+<meta property="og:type" content="Website" />
+        <script type="text/javascript">
+            var wpmp_options = {
+                image: {"class":"mypopuptest","vertical_fit":"1","zoom_enabled":"1","close_on_content_click":"1","disable_on":"400"},
+                gallery: {"class":"popup-gallery","disable_on":"400"},
+                iframe: {"class":"mpopup_iframe","width":"900","disable_on":"400"},
+                div: {"class":"mpopup_div","disable_on":"400"},
+                image_loading_text: 'Loading image #%curr%...',
+                image_error_text: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+            };
+        </script>
+    
+
+<script type="text/javascript">
+   jQuery(document).ready(function(){
+      jQuery(".box-chat").hide();
+      jQuery("#chat-box.desktop-only").click(function(){
+        jQuery(".hotline").addClass('right');
+        jQuery(".box-chat").fadeIn("slow");
+      });
+
+      jQuery(".chat-icon.desktop-only").click(function() {
+        jQuery(".hotline").addClass('right');
+        jQuery(".box-chat").fadeIn("slow");
+      });
+
+       jQuery("#chat-box.mobile-only").click(function(){
+        window.location = "http://m.me/laptrinhvienio";
+       });
+
+      jQuery(".chat-icon.mobile-only").click(function() {
+        window.location = "http://m.me/laptrinhvienio";
+      });
+
+      jQuery(".cross").click(function(){
+        jQuery(".box-chat").hide("slow");
+//        jQuery("#chat-box").show();
+      });
+    });
+
+</script>
+
+
+
+<div id="fb-root"></div>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=262562957268319";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div class="fb-message">
+    <div class="box-chat">
+        <div class="cross">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+       <div class="fb-page" data-href="https://www.facebook.com/laptrinhvienio/" 
+        data-tabs="messages" data-width="280" data-height="400" data-small-header="No" 
+        data-adapt-container-width="true" data-hide-cover="No" data-show-facepile="true">
+      </div>
+    </div>
+    <div class="hidden-sm hidden-xs desktop-only" id="chat-box"><span class="icon-irc"></span> Chat với chúng tôi</div>
+    <div class="hidden-lg hidden-md mobile-only" id="chat-box"><span class="icon-irc"></span> Chat với chúng tôi</div>
+    <div class="hidden-sm hidden-xs desktop-only chat-icon"><img src="wp-content/themes/Training/asset/img/chat.png"></div>
+    <div class="hidden-lg hidden-md mobile-only chat-icon"><img src="wp-content/themes/Training/asset/img/chat.png"></div>
+</div>
+
+<style type="text/css">
+   div#chat-box {
+    bottom: 8px;
+    z-index: 99;
+    background: #29b6f6;
+    display: none;
+   }
+
+   .cross {
+       display: none;
+   }
+
+   .chat-icon {
+       position: fixed;
+       right: 50px;
+       background-color: #29b6f6;
+       bottom: 8px;
+       z-index: 9;
+       padding: 5px;
+       border-radius: 5px;
+       width: 35px;
+       animation: shake 5s ease-in-out infinite;
+       display: none;
+   }
+
+   .chat-icon:hover {
+       cursor: pointer;
+
+   }
+
+   @keyframes shake {
+
+       1% {
+           transform: rotate(15deg);
+       }
+
+       5% {
+           transform: rotate(-15deg);
+       }
+
+       6% {
+           transform: rotate(15deg);
+       }
+
+       10% {
+           transform: rotate(-15deg);
+       }
+
+       11% {
+           transform: rotate(0);
+       }
+
+       100% {
+           transform: rotate(0);
+       }
+   }
+
+    div#chat-box-img {
+       bottom: 8px;
+    }
+</style>
+
+<div id="fb-root"></div><script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.7&appId=728058174047860";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		<script type="text/javascript">
+var recaptchaWidgets = [];
+var recaptchaCallback = function() {
+	var forms = document.getElementsByTagName('form');
+	var pattern = /(^|\s)g-recaptcha(\s|$)/;
+
+	for (var i = 0; i < forms.length; i++) {
+		var divs = forms[i].getElementsByTagName('div');
+
+		for (var j = 0; j < divs.length; j++) {
+			var sitekey = divs[j].getAttribute('data-sitekey');
+
+			if (divs[j].className && divs[j].className.match(pattern) && sitekey) {
+				var params = {
+					'sitekey': sitekey,
+					'theme': divs[j].getAttribute('data-theme'),
+					'type': divs[j].getAttribute('data-type'),
+					'size': divs[j].getAttribute('data-size'),
+					'tabindex': divs[j].getAttribute('data-tabindex')
+				};
+
+				var callback = divs[j].getAttribute('data-callback');
+
+				if (callback && 'function' == typeof window[callback]) {
+					params['callback'] = window[callback];
+				}
+
+				var expired_callback = divs[j].getAttribute('data-expired-callback');
+
+				if (expired_callback && 'function' == typeof window[expired_callback]) {
+					params['expired-callback'] = window[expired_callback];
+				}
+
+				var widget_id = grecaptcha.render(divs[j], params);
+				recaptchaWidgets.push(widget_id);
+				break;
+			}
+		}
+	}
+}
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js.js.php?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js.js.php?ver=4.7'></script>
+<script type='text/javascript' src='wp-content/plugins/simple-share-buttons-adder/js/ssba.min.js.js.php?ver=4.7.5'></script>
+<script type='text/javascript' src='wp-includes/js/comment-reply.min.js.js.php?ver=4.7.5'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&#038;render=explicit&#038;ver=2.0'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min.js.js.php?ver=4.7.5'></script>
+<!-- Facebook Comments Plugin for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&appId=728058174047860&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</head>
+<body data-rsssl=1>
+    <script>
+        var cate = "courses";
+        var type = "blog";
+        var searchText = "";
+        var page = 1;
+    </script>
+
+    <section class="topbar blog">
+        <div class="topbar-container">
+            <div class="fl-left"><a onclick="toggleNavigation();" class="mobile-menu"><img src="wp-content/themes/Training/asset/img/menu.svg"></a></div>
+            <a href="" class="logo"><img src="wp-content/themes/Training/asset/img/logo-white.png"></a>
+        </div>
+        <div class="topbar-navigation">
+            <nav class="nav-normal">
+                <ul class="sidebar-nav">
+                    <li><a href="index.html">TẤT CẢ</a></li>
+                    <li>
+                        <a href="khoahoc.html">KHOÁ HỌC</a>
+                                            </li>
+                    <li>
+                        <a href="sukien.html">SỰ KIỆN</a>
+                                            </li>
+                    <li><a href="khuyenmai.html">KHUYẾN MÃI</a></li>
+                    <li><a href="laptrinh.html">LAPTRINHVIEN.IO</a></li>
+                    <li><a href="tuyendung.html">TUYỂN DỤNG</a></li>
+                    <li class="video-menu">
+                        <a href="video.html">VIDEO <span class="video-icon"></span></a>
+                    </li>
+                    <li><a href='backend.html'>Back End</a></li>
+                    <li><a href='blogs?category=cpp'>C++</a></li>
+                   
+                   </ul>
+            </nav>
+            <div class="loader"></div>
+        </div>
+    </section>
+
+    <section class="header hidden-xs">
+        <div class="container">
+            <a class="logo-link" href="" class="logo">
+                <img class="logo" src="wp-content/themes/Training/asset/img/logo-white.png">
+            </a>
+            <span class="blogs-title">Blogs</span>
+            <div class="search">
+                <img class="search-icon" src="wp-content/themes/Training/asset/img/search-icon.png">
+                <input id="searchText" class="form-control search-input" type="text" onkeypress="return search(event, '');">
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container blog-content">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 hidden-xs">
+                    <div id="fixed-position-left" class="menu-left">
+                        <div class="panel">
+                            <ul>
+                                <li class='active' >
+                                    <a href="index.html">TẤT CẢ</a>
+                                </li>
+                                <li >
+                                    <a href="khoahoc.html">KHOÁ HỌC</a>
+                                                                    </li>
+                                <li >
+                                    <a href="sukien.html">SỰ KIỆN</a>
+                                                                    </li>
+                                <li  >
+                                    <a href="khuyenmai.html">KHUYẾN MÃI</a>
+                                </li>
+                                <li  >
+                                    <a href="laptrinh.html">LAPTRINHVIEN.IO</a>
+                                </li>
+                                <li  >
+                                    <a href="tuyendung.html">TUYỂN DỤNG</a>
+                                </li>
+                                <li class="video-menu">
+                                    <a href="video.html">VIDEO <span class="video-icon"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="panel">
+                            <ul>
+                                <li><a href='backend.html'>Back End</a></li>
+                                <li><a href='blogs?category=cpp'>C++</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-9 blog-listing">
+                                                                                                <div class="panel image-top clearfix">
+        <a href="khoa-hoc-lap-trinh-can-ban-c-khai-giang-ngay-22-04-2019/">
+        <div class="image" style="background-image: url('wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-can-ban-va-cpp-khai-giang-ngay-10-12-2018.png')">
+        </div>
+    </a>
+    <div class="content flex-container flex-direction-column">
+        <h3 class="title"><a href="khoa-hoc-lap-trinh-can-ban-c-khai-giang-ngay-22-04-2019/">Khóa học Lập trình Căn bản &#038; C++ &#8211; Khai giảng ngày 22/04/2019</a></h3>
+        <div class="row flex-container">
+            <div class="views col-sm-5 hidden-xs">
+                <!--                                                <span class="author">--><!--</span>-->
+                                <span class="time">
+                    <i class="fa fa-clock-o"></i>
+                    2 tháng trước                </span>
+            </div>
+            <div class="col-sm-7 category">
+                                    <a href="blogs?category=courses">
+                        #Khoá học                    </a>
+                            </div>
+        </div>
+
+        <div class="short-info">
+            <p>Nhằm cung cấp kiến thức về kỹ năng lập trình căn bản cho tất cả mọi người có đam mê và mong muốn tìm hiểu về Lập trình, đặc biệt là những bạn chuẩn bị bước vào năm 1 khoa CNTT, cũng như các bạn sinh viên muốn lấy lại căn bản kỹ thuật lập trình. Trung Tâm Đào Tạo Lập trình viên JANETO khai giảng <strong>Khóa học Lập trình căn bản & C++</strong></p>
+        </div>
+
+        <div class="blog-sharing row">
+            <div class="col-md-9 blog-views">
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/eyes-icon.png">
+                    <div class="post-views post-5677 entry-meta">
+			
+			
+			<span class="post-views-count">396</span>
+			</div>                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/comment-icon.png">
+                    <fb:comments-count href="khoa-hoc-lap-trinh-can-ban-c-khai-giang-ngay-22-04-2019/"></fb:comments-count>
+                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/fb-icon.png">
+                    0                </span>
+            </div>
+            <div class="col-md-3 blog-share-btn">
+                                <a onclick="shareBlog('khoa-hoc-lap-trinh-can-ban-c-khai-giang-ngay-22-04-2019/', 'wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-can-ban-va-cpp-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <img src="wp-content/themes/Training/asset/img/share-btn.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="views visible-xs">
+            <!--                                            -->                        <div class="time">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                2 tháng trước            </div>
+        </div>
+    </div>
+</div>
+                                                        <div class="visible-sm visible-xs">
+                                    <div class="panel only-promotion clearfix">
+    <a href="cong-ty-janeto-lien-tuc-tuyen-dung-cac-vi-tri-tu-internship-toi-senior/">
+                <img class="promotion" src="wp-content/uploads/2018/09/laptrinhvienio-tin-tuyen-dung-cong-ty-janeto-dang-tuyen-dung-cac-vi-tri-tu-internship-toi-senior-thang-11-2018.png">
+    </a>
+        <a onclick="shareBlog('cong-ty-janeto-lien-tuc-tuyen-dung-cac-vi-tri-tu-internship-toi-senior/', 'wp-content/uploads/2018/09/laptrinhvienio-tin-tuyen-dung-cong-ty-janeto-dang-tuyen-dung-cac-vi-tri-tu-internship-toi-senior-thang-11-2018.png')" target="_blank">
+        <img class="sharing" src="wp-content/themes/Training/asset/img/share-btn.png">
+    </a>
+    </div>                                </div>
+                                                                                                                                                                                                <div class="panel image-top clearfix">
+        <a href="khoa-hoc-lap-trinh-web-front-end-co-ban-khai-giang-ngay-25-03-2019/">
+        <div class="image" style="background-image: url('wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-web-front-end-co-ban-khai-giang-ngay-10-12-2018.png')">
+        </div>
+    </a>
+    <div class="content flex-container flex-direction-column">
+        <h3 class="title"><a href="khoa-hoc-lap-trinh-web-front-end-co-ban-khai-giang-ngay-25-03-2019/">Khóa học Lập trình Web Front-End cơ bản &#8211; Khai giảng ngày 25/03/2019</a></h3>
+        <div class="row flex-container">
+            <div class="views col-sm-5 hidden-xs">
+                <!--                                                <span class="author">--><!--</span>-->
+                                <span class="time">
+                    <i class="fa fa-clock-o"></i>
+                    2 tháng trước                </span>
+            </div>
+            <div class="col-sm-7 category">
+                                    <a href="blogs?category=courses">
+                        #Khoá học                    </a>
+                            </div>
+        </div>
+
+        <div class="short-info">
+            <p>HTML, CSS và Javascript là bộ 3 ngôn ngữ cần thiết cho mọi Lập trình viên Web Front-End. Dù bạn muốn xây dựng nên một trang web đơn giản hay phức tạp đều không thể thiếu chúng. Khóa học lập trình <strong>Web Front End cơ bản</strong> sẽ cung cấp cho bạn những kiến thức cơ bản, cần thiết nhất để bắt đầu trên con đường trở thành một lập trình viên web chuyên nghiệp.</p>
+        </div>
+
+        <div class="blog-sharing row">
+            <div class="col-md-9 blog-views">
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/eyes-icon.png">
+                    <div class="post-views post-5682 entry-meta">
+			
+			
+			<span class="post-views-count">396</span>
+			</div>                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/comment-icon.png">
+                    <fb:comments-count href="khoa-hoc-lap-trinh-web-front-end-co-ban-khai-giang-ngay-25-03-2019/"></fb:comments-count>
+                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/fb-icon.png">
+                    0                </span>
+            </div>
+            <div class="col-md-3 blog-share-btn">
+                                <a onclick="shareBlog('khoa-hoc-lap-trinh-web-front-end-co-ban-khai-giang-ngay-25-03-2019/', 'wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-web-front-end-co-ban-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <img src="wp-content/themes/Training/asset/img/share-btn.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="views visible-xs">
+            <!--                                            -->                        <div class="time">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                2 tháng trước            </div>
+        </div>
+    </div>
+</div>
+                                                                                                                                            <div class="panel image-top clearfix">
+        <a href="khoa-hoc-lap-trinh-angular-6-khai-giang-ngay-18-03-2019/">
+        <div class="image" style="background-image: url('wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-web-front-end-nang-cao-voi-angular-6-khai-giang-ngay-10-12-2018.png')">
+        </div>
+    </a>
+    <div class="content flex-container flex-direction-column">
+        <h3 class="title"><a href="khoa-hoc-lap-trinh-angular-6-khai-giang-ngay-18-03-2019/">Khóa học Lập trình Angular 6 &#8211; Khai giảng ngày 18/03/2019</a></h3>
+        <div class="row flex-container">
+            <div class="views col-sm-5 hidden-xs">
+                <!--                                                <span class="author">--><!--</span>-->
+                                <span class="time">
+                    <i class="fa fa-clock-o"></i>
+                    2 tháng trước                </span>
+            </div>
+            <div class="col-sm-7 category">
+                                    <a href="blogs?category=courses">
+                        #Khoá học                    </a>
+                            </div>
+        </div>
+
+        <div class="short-info">
+            <p>Dù bạn là người mới đến với Angular hay là đã biết qua về AngularJS, nếu bạn muốn tạo ra những ứng dụng Web tuyệt vời và cập nhật những công nghệ phát triển mới nhất. Khoá học này chính là lựa chọn dành cho bạn. Khoá học sẽ cung cấp cho bạn những kiến thức cần thiết để bạn đủ khả năng xây dựng các ứng dụng web chuyên nghiệp với Angular 6.</p>
+        </div>
+
+        <div class="blog-sharing row">
+            <div class="col-md-9 blog-views">
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/eyes-icon.png">
+                    <div class="post-views post-5686 entry-meta">
+			
+			
+			<span class="post-views-count">336</span>
+			</div>                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/comment-icon.png">
+                    <fb:comments-count href="khoa-hoc-lap-trinh-angular-6-khai-giang-ngay-18-03-2019/"></fb:comments-count>
+                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/fb-icon.png">
+                    0                </span>
+            </div>
+            <div class="col-md-3 blog-share-btn">
+                                <a onclick="shareBlog('khoa-hoc-lap-trinh-angular-6-khai-giang-ngay-18-03-2019/', 'wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-web-front-end-nang-cao-voi-angular-6-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <img src="wp-content/themes/Training/asset/img/share-btn.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="views visible-xs">
+            <!--                                            -->                        <div class="time">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                2 tháng trước            </div>
+        </div>
+    </div>
+</div>
+                                                                                                                                            <div class="panel image-top clearfix">
+        <a href="khoa-hoc-lap-trinh-web-back-end-voi-node-js-khai-giang-ngay-18-03-2019/">
+        <div class="image" style="background-image: url('wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-web-back-end-voi-nodejs-khai-giang-ngay-10-12-2018.png')">
+        </div>
+    </a>
+    <div class="content flex-container flex-direction-column">
+        <h3 class="title"><a href="khoa-hoc-lap-trinh-web-back-end-voi-node-js-khai-giang-ngay-18-03-2019/">Khóa học Lập trình Web Back-End với Node.js &#8211; Khai giảng ngày 18/03/2019</a></h3>
+        <div class="row flex-container">
+            <div class="views col-sm-5 hidden-xs">
+                <!--                                                <span class="author">--><!--</span>-->
+                                <span class="time">
+                    <i class="fa fa-clock-o"></i>
+                    2 tháng trước                </span>
+            </div>
+            <div class="col-sm-7 category">
+                                    <a href="blogs?category=courses">
+                        #Khoá học                    </a>
+                            </div>
+        </div>
+
+        <div class="short-info">
+            <p>Bạn là người có đam mê trở thành một Web Developer chuyên nghiệp. Với Node.js bạn có thể làm việc trên bất kỳ lĩnh vực nào như Web Development (Xây dựng Back-end tốt), Mobile (Xây dựng Web Service) , Ứng dụng Web (Xây dựng các ứng dụng Real-time)....</p>
+        </div>
+
+        <div class="blog-sharing row">
+            <div class="col-md-9 blog-views">
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/eyes-icon.png">
+                    <div class="post-views post-5688 entry-meta">
+			
+			
+			<span class="post-views-count">287</span>
+			</div>                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/comment-icon.png">
+                    <fb:comments-count href="khoa-hoc-lap-trinh-web-back-end-voi-node-js-khai-giang-ngay-18-03-2019/"></fb:comments-count>
+                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/fb-icon.png">
+                    0                </span>
+            </div>
+            <div class="col-md-3 blog-share-btn">
+                                <a onclick="shareBlog('khoa-hoc-lap-trinh-web-back-end-voi-node-js-khai-giang-ngay-18-03-2019/', 'wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-web-back-end-voi-nodejs-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <img src="wp-content/themes/Training/asset/img/share-btn.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="views visible-xs">
+            <!--                                            -->                        <div class="time">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                2 tháng trước            </div>
+        </div>
+    </div>
+</div>
+                                                                                                                                            <div class="panel image-top clearfix">
+        <a href="khoa-hoc-lap-trinh-android-khai-giang-ngay-25-03-2019/">
+        <div class="image" style="background-image: url('wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-android-khai-giang-ngay-10-12-2018.png')">
+        </div>
+    </a>
+    <div class="content flex-container flex-direction-column">
+        <h3 class="title"><a href="khoa-hoc-lap-trinh-android-khai-giang-ngay-25-03-2019/">Khóa học Lập trình Android &#8211; Khai giảng ngày 25/03/2019</a></h3>
+        <div class="row flex-container">
+            <div class="views col-sm-5 hidden-xs">
+                <!--                                                <span class="author">--><!--</span>-->
+                                <span class="time">
+                    <i class="fa fa-clock-o"></i>
+                    2 tháng trước                </span>
+            </div>
+            <div class="col-sm-7 category">
+                                    <a href="blogs?category=courses">
+                        #Khoá học                    </a>
+                            </div>
+        </div>
+
+        <div class="short-info">
+            <p>Nắm bắt được nhu cầu tuyển dụng LẬP TRÌNH MOBILE VỚI ANDROID ngày càng nóng, <strong>LAPTRINHVIEN.IO</strong> đã cho ra mắt <strong><a href="lich-khai-giang/" target="_blank">KHÓA HỌC LẬP TRÌNH ANDROID</a></strong>. Với thời gian đào tạo trong 3 tháng, học viên sẽ đủ khả năng ứng tuyển vị trí LẬP TRÌNH MOBILE VỚI ANDROID tại các công ty phần mềm.</p>
+        </div>
+
+        <div class="blog-sharing row">
+            <div class="col-md-9 blog-views">
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/eyes-icon.png">
+                    <div class="post-views post-5690 entry-meta">
+			
+			
+			<span class="post-views-count">269</span>
+			</div>                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/comment-icon.png">
+                    <fb:comments-count href="khoa-hoc-lap-trinh-android-khai-giang-ngay-25-03-2019/"></fb:comments-count>
+                </span>
+                <span>
+                    <img src="wp-content/themes/Training/asset/img/fb-icon.png">
+                    0                </span>
+            </div>
+            <div class="col-md-3 blog-share-btn">
+                                <a onclick="shareBlog('khoa-hoc-lap-trinh-android-khai-giang-ngay-25-03-2019/', 'wp-content/uploads/2018/11/laptrinhvienio-khoa-hoc-lap-trinh-android-khai-giang-ngay-10-12-2018.png')" target="_blank">
+                    <img src="wp-content/themes/Training/asset/img/share-btn.png">
+                </a>
+            </div>
+        </div>
+
+        <div class="views visible-xs">
+            <!--                                            -->                        <div class="time">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                2 tháng trước            </div>
+        </div>
+    </div>
+</div>
+                                                                                                        <div id="load-more"></div>
+                                        <div class="flex-container">
+                        <a id="prev-page-first" href="blogs/?category=courses&next=0">Quay Lại</a>
+                    </div>
+                </div>
+                                <div class="col-md-3 hidden-sm">
+                    <div id="fixed-position-right">
+                                                    <div class="panel">
+                                <a href="cong-ty-janeto-lien-tuc-tuyen-dung-cac-vi-tri-tu-internship-toi-senior/">
+                                                                        <img class="promotion" src="wp-content/uploads/2018/09/laptrinhvienio-tin-tuyen-dung-cong-ty-janeto-dang-tuyen-dung-cac-vi-tri-tu-internship-toi-senior-thang-11-2018.png">
+                                </a>
+                            </div>
+                                                    <div class="panel">
+                                <a href="khoa-hoc-web-front-end-nang-cao-voi-angular-6-khai-giang-03-10-2018/">
+                                                                        <img class="promotion" src="wp-content/uploads/2017/10/why-us-on-mobile-new.jpg">
+                                </a>
+                            </div>
+                                                <div class="panel blank-promotion">
+                        </div>
+                    </div>
+                                </div>
+            </div>
+        </div>
+        <div class="footer blog">
+    <div class="copyright">
+        <div class="container">
+            <div class="row flex-container flex-align-items-center flex-wrap">
+                <div class="text col-xs-12 col-md-5 col-md-offset-1"> Bản Quyền &copy; 2017 thuộc JTC. Thiết kế bởi <i
+                        class="fa fa-heart"></i> <a href="http://janeto.com" target="_blank">JANETO</a>
+                </div>
+                <div class="subscribe-input col-xs-12 col-md-4" id="subscribe">
+                    <div role="form" class="wpcf7" id="wpcf7-f38-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="blogs/?category=courses#wpcf7-f38-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="38" />
+<input type="hidden" name="_wpcf7_version" value="4.7" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f38-o1" />
+<input type="hidden" name="_wpnonce" value="1f6aa2986e" />
+</div>
+<div class="input-group">
+  <span class="wpcf7-form-control-wrap subscribe-email"><input type="email" name="subscribe-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email form-control" id="subscribe-email" aria-invalid="false" placeholder="EMAIL - SỐ ĐIỆN THOẠI" /></span><br />
+  <span class="input-group-btn"><br />
+    <button class="btn btn-default" type="button" onclick="submitSubscribe()">ĐĂNG KÝ</button><br />
+  </span>
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>                    <div class="result">
+                        <p class="subs-success"></p>
+                        <p class="subs-error"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    </section>
+    
+    <div class="hotline-button blog-page">
+    <div class="button-block">
+        <div class="icon phone" onclick="showHotline();">
+            <img src="wp-content/themes/Training/asset/img/old-telephone.png">
+        </div>
+        <div class="icon facebook">
+            <a class="hidden-sm hidden-xs" href="https://www.facebook.com/laptrinhvienio/" target="_blank">
+                <img src="wp-content/themes/Training/asset/img/facebook-logo.png">
+            </a>
+            <a class="hidden-lg hidden-md facebook-mobile-only" data-id="1363771876981532">
+                <img class="hidden-lg hidden-md" src="wp-content/themes/Training/asset/img/facebook-logo.png">
+            </a>
+        </div>
+        <div class="icon instagram">
+            <a href="https://www.instagram.com/laptrinhvienio/" target="_blank">
+                <img src="wp-content/themes/Training/asset/img/instagram-logo.png">
+            </a>
+        </div>
+        <div class="icon youtube">
+            <a href="https://www.youtube.com/c/laptrinhvienio/" target="_blank">
+                <img src="wp-content/themes/Training/asset/img/youtube-icon.png">
+            </a>
+        </div>
+    </div>
+</div>
+<div class="hotline right blog-page">
+    <div class="info">
+        <div class="data">
+            <span><i class="fa fa-phone" aria-hidden="true"></i>0933 06 7997</span><br>
+            <span><i class="fa fa-phone" aria-hidden="true"></i>0933 26 7337</span><br>
+            <a href="mailto:tuyensinh@laptrinhvien.io" style="color:inherit"><span><i class="fa fa-envelope" aria-hidden="true"></i>tuyensinh@laptrinhvien.io</span></a>
+        </div>
+    </div>
+</div>
+    <style>
+        .chat-icon {
+            display: block;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $('div#chat-box').css({"display": "none"});
+            $('.fb-message').addClass("blog-page");
+            $('#chat-box').addClass("blog-page");
+        });
+        var enableLoadmore = true;        function viewMore() {
+            enableLoadmore = false;
+            $('#load-more').prepend('<i class="fa fa-spinner fa-spin" aria-hidden="true"></i>');
+            var data = {
+                ajax: true,
+                cate: cate ? cate : undefined,
+                type: type ? type : undefined,
+                searchText: searchText ? searchText : undefined,
+                page: ++page
+            };
+            $.post("#", data, function(res) {
+                $('#load-more').remove();
+                $('#next-page').remove();
+                $('#prev-page').remove();
+                $('.blog-listing').append(res);
+                $('.blank-promotion').css({'display': 'none'});
+            });
+        }
+
+        function scrollToTop() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 1000);
+        }
+
+        $(window).scroll(function () {
+            $('#fixed-position-right').scrollTop($(window).scrollTop());
+            if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10 - 347) {
+                var contentBlogHeight = $(".blog-listing").height();
+                var promoHeight = $("#fixed-position-right").height();
+
+                if (contentBlogHeight >= promoHeight) {
+                    $('.blank-promotion').css({'display': 'block'});
+                }
+            } else {
+                $('.blank-promotion').css({'display': 'none'});
+            }
+            if (enableLoadmore) {
+                if ($(window).scrollTop() >= $(document).height() - $(window).height() - 10) {
+                    viewMore();
+                }
+            }
+        });
+    </script>
+    <a id="back-top" onclick="scrollToTop()" class="back-to-top blog-page page-scroll" title="back to Top">
+        <i class="fa fa-caret-up"></i>
+    </a>
+    <script>
+    ga('send', 'pageview');
+</script>
+
